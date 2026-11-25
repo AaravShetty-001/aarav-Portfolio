@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarav Ajit Shetty | Portfolio</title>
+    <link rel="stylesheet" href="aarav.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar">
+        <div class="logo">Aarav Ajit Shetty</div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ========== HOME ========== -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to My Portfolio 👋</h1>
+            <h2>Aarav Ajit Shetty</h2>
+            <p>
+                Hi! I am a first-year engineering student who loves coding,
+                learning new things and building cool websites.
+            </p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <!-- Profile picture (made with CSS). To use a real photo, replace this div with:
+             <img src="profile.jpg" alt="Aarav Ajit Shetty" class="profile-pic"> -->
+        <div class="profile-pic">A</div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section">
+        <h2 class="title">About Me</h2>
+
+        <div class="about-boxes">
+            <div class="about-card">
+                <h3>👋 Introduction</h3>
+                <p>Hello! My name is Aarav Ajit Shetty. I am a first-year student just starting my journey in the world of technology.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>🎓 Education</h3>
+                <p>B.Tech 1st Year (1st Semester) at Your College Name.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>💡 Interests</h3>
+                <p>Coding, solving problems, designing simple websites and listening to music.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>🚀 Career Goal</h3>
+                <p>I want to become a software developer and build apps that help people.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section grey">
+        <h2 class="title">Skills</h2>
+
+        <div class="skills-boxes">
+
+            <div class="skill-card">
+                <h3>&lt;/&gt; HTML</h3>
+                <div class="bar">
+                    <div class="fill w80"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>🎨 CSS</h3>
+                <div class="bar">
+                    <div class="fill w70"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>🐍 Python</h3>
+                <div class="bar">
+                    <div class="fill w60"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>💻 C Programming</h3>
+                <div class="bar">
+                    <div class="fill w65"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>🗣️ Communication</h3>
+                <div class="bar">
+                    <div class="fill w75"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section">
+        <h2 class="title">Projects</h2>
+
+        <div class="projects-boxes">
+
+            <div class="project-card">
+                <div class="project-img blue">🧮</div>
+                <h3>Calculator Program</h3>
+                <p>A simple calculator made in C that can add, subtract, multiply and divide two numbers.</p>
+                <a href="https://github.com" target="_blank" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img purple">🌐</div>
+                <h3>College Event Web Page</h3>
+                <p>A small event page made using only HTML and CSS with a clean and simple layout.</p>
+                <a href="https://github.com" target="_blank" class="btn">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section grey">
+        <h2 class="title">Contact</h2>
+
+        <div class="contact-boxes">
+
+            <div class="contact-info">
+                <h3>Let's talk! 😊</h3>
+                <p>👤 Aarav Ajit Shetty</p>
+                <p>✉️ youremail@example.com</p>
+                <p>📍 Your Location</p>
+            </div>
+
+            <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="Name" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="Subject" placeholder="What is this about?" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" rows="5" placeholder="Write your message here" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <p>&copy; 2026 Aarav Ajit Shetty. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
